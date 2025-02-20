@@ -327,6 +327,7 @@ def visualize_graph():
     st.pyplot(fig)
 # Add to main() function
 def main():
+    st.title("Model of water distribution network via SWDAE🌊💧")
     # Node creation
     with st.expander("🏗️ Add Node", expanded=True):
         node_type = st.selectbox("Node Type", ["Junction", "Tank", "Reservoir"])
